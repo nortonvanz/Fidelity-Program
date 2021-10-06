@@ -12,6 +12,7 @@ __pycache__/
 *.so
 *.csv
 *.sqlite
+*.pkl
 
 # Distribution / packaging
 .Python
