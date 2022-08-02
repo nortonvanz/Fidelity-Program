@@ -2,10 +2,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
-# -> .env files are a surrogate environment variable for local development only, but should never be committed to Git.
-.env
-
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -117,7 +113,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
+.env
 .env/
 .venv/
 env/
