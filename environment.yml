@@ -14,6 +14,7 @@ dependencies:
   - backcall=0.2.0
   - backports=1.0
   - backports.functools_lru_cache=1.6.4
+  - beautifulsoup4=4.11.1
   - black=22.6.0
   - bleach=5.0.1
   - boto3=1.24.28
@@ -22,7 +23,7 @@ dependencies:
   - brotli=1.0.9
   - brotli-bin=1.0.9
   - brotlipy=0.7.0
-  - ca-certificates=2022.07.19
+  - ca-certificates=2022.6.15
   - certifi=2022.6.15
   - cffi=1.14.4
   - charset-normalizer=2.1.1
@@ -33,6 +34,7 @@ dependencies:
   - debugpy=1.6.3
   - decorator=5.1.1
   - defusedxml=0.7.1
+  - docopt=0.6.2
   - entrypoints=0.4
   - executing=0.10.0
   - flit-core=3.7.1
@@ -40,6 +42,7 @@ dependencies:
   - freetype=2.12.1
   - greenlet=1.1.3
   - htmlmin=0.1.12
+  - icu=70.1
   - idna=3.3
   - imagehash=4.2.1
   - importlib-metadata=4.11.4
@@ -56,8 +59,12 @@ dependencies:
   - jsonschema=4.14.0
   - jupyter_client=7.3.5
   - jupyter_contrib_core=0.4.0
+  - jupyter_contrib_nbextensions=0.5.1
   - jupyter_core=4.11.1
+  - jupyter_highlight_selected_word=0.2.0
+  - jupyter_latex_envs=1.4.6
   - jupyter_nbextensions_configurator=0.4.1
+  - jupyterlab_pygments=0.2.2
   - jupyterlab_widgets=3.0.2
   - kiwisolver=1.4.4
   - krb5=1.19.1
@@ -74,6 +81,7 @@ dependencies:
   - libffi=3.2.1
   - libgfortran=4.0.0
   - libgfortran4=7.5.0
+  - libiconv=1.16
   - liblapack=3.8.0
   - libllvm10=10.0.1
   - libopenblas=0.3.6
@@ -83,9 +91,12 @@ dependencies:
   - libtiff=4.4.0
   - libwebp-base=1.2.4
   - libxcb=1.13
+  - libxml2=2.9.14
+  - libxslt=1.1.35
   - libzlib=1.2.12
   - llvm-openmp=14.0.4
   - llvmlite=0.34.0
+  - lxml=4.9.1
   - markupsafe=2.1.1
   - matplotlib=3.5.3
   - matplotlib-base=3.5.3
@@ -95,8 +106,7 @@ dependencies:
   - multimethod=1.4
   - munkres=1.1.4
   - mypy_extensions=0.4.3
-  - nbclient=0.6.7
-  - nbconvert=5.4.1
+  - nbclient=0.5.13
   - nbformat=5.4.0
   - ncurses=6.3
   - nest-asyncio=1.5.5
@@ -120,6 +130,7 @@ dependencies:
   - pickleshare=0.7.5
   - pillow=9.2.0
   - pip=22.2.2
+  - pipreqs=0.4.11
   - pkgutil-resolve-name=1.3.10
   - platformdirs=2.5.2
   - plotly=5.9.0
@@ -156,6 +167,7 @@ dependencies:
   - send2trash=1.8.0
   - setuptools=65.3.0
   - six=1.16.0
+  - soupsieve=2.3.2.post1
   - sqlalchemy=1.4.32
   - sqlite=3.33.0
   - stack_data=0.5.0
@@ -186,9 +198,13 @@ dependencies:
   - xorg-libxdmcp=1.1.3
   - xz=5.2.6
   - yaml=0.2.5
+  - yarg=0.1.9
   - yellowbrick=1.4
   - zeromq=4.3.4
   - zipp=3.8.1
   - zlib=1.2.12
   - zstd=1.5.2
+  - pip:
+    - nbconvert==6.4.3
+    - tinycss2==1.1.1
 prefix: /Users/home/opt/anaconda3/envs/pa005_clustering
