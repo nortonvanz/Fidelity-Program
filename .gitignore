@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 # AWS EC2 access keys
-.pem
+*.pem
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
