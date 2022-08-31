@@ -2,8 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
-# Postgre Credentials
-postgre_credentials.py
+# AWS EC2 access keys
+.pem
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
