@@ -5,6 +5,9 @@
 # AWS EC2 access keys
 *.pem
 
+# pickle files
+*.pkl
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
