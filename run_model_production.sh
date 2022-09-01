@@ -1,8 +1,12 @@
 # variable
 data=$(date +'%Y-%m-%dT%H:%M:%S')
 
-#_ path 
-path='/home/ubuntu/pa005_insiders_clustering/insiders_clustering'
-path_to_envs='/home/ubuntu/.local/bin/'
 
-$path_to_envs/papermill $path/src/models/c10-mdfl-deploy.ipynb $path/reports/c109-mdfl-deploy-$data.ipynb
+# path (root of project)
+path='/home/ubuntu/Fidelity-Program'
+
+# path where papermill is installed on env (find: 'which papermill' on project root folder)
+path_to_envs='/home/ubuntu/anaconda3/envs/pa005_clustering_aws/bin'
+
+
+$path_to_envs/papermill $path/src/models/9.0-nmv-deploy.ipynb $path/reports/9.0-nmv-deploy-$data.ipynb
