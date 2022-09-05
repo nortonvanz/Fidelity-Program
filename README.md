@@ -49,12 +49,12 @@ Quais ferramentas serão usadas no processo?
 - Jupyter Notebook;
 - Git e Github;
 - Coggle Mindmaps;
-- Pandas Profiling;
+- Pandas Profiling, Metabase;
 - Algoritmos de Clusterização;
 - Técnicas de Embedding;
-- Papermill;
-- Serviços AWS: S3, EC2 e RDS;
-- Metabase.
+- Crontab e Papermill;
+- Serviços AWS: S3 (armazenamento), EC2 (servidor) e RDS (banco de dados).
+
 
 ### 3.3 Processo
 #### 3.3.1 Estratégia de solução
