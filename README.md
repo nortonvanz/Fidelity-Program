@@ -1,4 +1,4 @@
-# Customer Segmentation Program for E-Commerce
+# Customer Loyalty Program for E-Commerce
 
 <img src="https://github.com/nortonvanz/Fidelity-Program/blob/pa005_norton_vanz/images/fidelity_program.jpeg?raw=true" width=70% height=70% title="Clustering-for-Loyalty-Program" alt="project_cover_image"/>
 
